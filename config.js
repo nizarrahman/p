@@ -1,27 +1,10 @@
-// S C R I P T  O R I  B Y  Bochilgaming 🔭
-// Ditulis Ulang Oleh JAROT OFFC
-// Credits, jangan dihapus atau diubah!
-
-// - - THANKS TO - -
-// • Allah SWT
-// • Nurutomo
-// • Bochilgaming
-// • Rominaru
-// • Kannachann
-// • Jarot Offc
-// • The.Sad.Boy01
-// • Rlxfly
-// • Rasel comel
-// • Oscar-Md
-// • Rismabot offc
-// • Dll
-
-//[!] Jangan Lupa Ganti Ownernya
+//[!] Jangan Dihapus, mending ditambahin 
 
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
+import { group } from 'console'
 
 /*============= WAKTU =============*/
 let wibh = moment.tz('Asia/Jakarta').format('HH')
@@ -47,77 +30,135 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/al_pakel' //Link Instagrammu
-global.sgh = 'https://github.com/Mgbotz' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/E1TElUfSJY63Cs9WqNjEEC'
-global.sdc = '_'
-global.stg = 'https://instagram.com/al_pakel'
-global.syt = 'https://youtube.com/channel/UCbI74T0AXUI26VC88NyoWdw' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.snh = 'https://chat.whatsapp.com/E1TElUfSJY63Cs9WqNjEEC' //Hmmm, Ini boleh kalian isi terserah :v
+
+global.sig = 'https://instagram.com/nizarrrahman.f_' // ig
+global.sgh = '-' // github
+global.sgc = '-' // group whatsapp
+global.sdc = '-'//discord
+global.snh = '-' // my youtube channel
+global.sfb = '-' // facebook
+global.syt = 'https://nizarrahman.000webhostapp.com/' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = '082171432358' //Nomor Danamu
-global.ppulsa = '082171432358' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.com/AlexPakel' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '-' //dana
+global.povo = '-' //ovo
+global.pgopay = '-' //gopay
+global.plinkaja = '-' //link aja
+global.ppulsa = '081386945391' //telkomsel
+global.ppulsa2 = '-' // kalau ada kartu lain isi aja
+global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281287142545' //Nomor Bot
-global.nomorown = '6282171432358' //Nomor Owner
-global.namebot = 'MGBOTZ'  //Nama Bot
-global.nameown = 'PRIVATE'  // Nama Owner
+global.nomorbot = '79112173741'
+global.nomorown = '6281386945391'
+global.namebot = '𝙉𝘼𝙄-𝘿𝙚𝙫-BOT-V3🇮🇩'
+global.nameown = '6281386945391'
+
+/*============== Github Thanks To ==============*/
+global.namagithub = 'Nama Github Belum Diisi' // nama github lu
+global.linkgithub = 'Link Githu Belum Diisi' // tarok link github lu
+
+// klau kgk ada github kasih tanda '-' aja biar kgk error
+
+/*============== APIKEY SIMPEL ==============*/
+global.zenzkey = 'b8040941f7'
+global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182c16
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282171432358', '❦ PRIVATE 🎐', true] //Ganti jd nomormu sama Namamu
+  ['6281386945391', 'Nizar', true],
+  ['6283120240903', 'Adryan', true],
+  ['6281223618476', 'Irham', true]
+    //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.prems = ['6281386945391'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
-global.lolkey = 'apikeymu'
-global.xkey = 'APIKEYMU'
 /*============== API ==============*/
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
+  rey: 'https://server-api-rey.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
   lol: 'https://api.lolhuman.xyz',
+  dhnjing: 'https://dhnjing.xyz',
+  neoxr: 'https://neoxr-api.herokuapp.com',
+  zeks: 'https://api.zeks.me',
+  pencarikode: 'https://pencarikode.xyz',
   ana: 'https://anabotofc.herokuapp.com/',
+  amel: 'https://melcanz.com',
+  hardianto: 'https://hardianto.xyz',
+  botstyle: 'https://botstyle-api.herokuapp.com',
   adiisus: 'https://adiixyzapi.herokuapp.com',
-  violetics : 'https://violetics.pw', 
+  kanx: 'https://kannxapi.herokuapp.com/', 
+  violetics : 'https://violetics.pw',
+  ziy : 'https://ziy.herokuapp.com',
   males : 'https://malesin.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'APIKEYMU',
+  'https://api.xteam.xyz': 'ebb6251cc00f9c63',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'Apikeymu',
+  'https://api.lolhuman.xyz': 'e54205a4ca2caa368cc067bb',// 8e66d0934cf741bfd2182c16
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://violetics.pw': 'beta'
+  'https://api.zeks.me': 'apivinz',
+  'https://pencarikode.xyz': 'pais',
+  'https://melcanz.com': 'melcantik',
+  'https://neoxr-api.herokuapp.com': 'yntkts',
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://botstyle-api.herokuapp.com': 'Apikeymu',
+  'https://hardianto.xyz': 'hardianto',
+  'https://violetics.pw': 'beta',
+  'https://ziy.herokuapp.com' : 'xZiyy'
 }
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '「 MGBOTZ-MULTIDEVICE 汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘MGBOTZ-MD˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺  MGBOTZ-MD'
-global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
-global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
-global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
-global.author = global.wm
-global.logo = 'https://ibb.co/17RY7x9'
+global.wm = '                「 𝙉𝘼𝙄-𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝙉𝘼𝙄-𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 🇮🇩 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 𝙉𝘼𝙄-𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 '
+global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
+global.bottime = `T I M E : ${wktuwib}`
+global.titlebot = `⫹⫺ WhatsApp Bot | By 𝙉𝘼𝙄-𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧`
+global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
+global.author = '                「 𝙉𝘼𝙄-𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 🇮🇩  あ」'
 
+/*Fake*/
+global.fsizedoc = '1'.repeat(10)
+global.fpagedoc = '1'.repeat(10)
+global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/0c6ff83f2adbcf4693314.gif' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/26b515d170f1e599f78a7.jpg'
-global.thumbbc = 'https://telegra.ph/file/05f874dc87f7e27fa8127.jpg' //For broadcast
+global.thumb = 'https://i.ibb.co/XZrK6yQ/transformers.jpg' //Main Thumbnail
+global.imagebot = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1598c29a621.jpg',
+global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
+global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumbnailUrl = [
+'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg','https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
+'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg','https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
+'https://telegra.ph/file/7d6c0e35f9c8f52715541.jpg','https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg',
+'https://telegra.ph/file/55e5af5f33fbd57104187.jpg','https://telegra.ph/file/af236598456b95884bd15.jpg',
+'https://telegra.ph/file/de92ed4a729887ffc974c.jpg','https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg']
+
+global.flaaa2 = [
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
+global.flaaa = [
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
+global.hwaifu2 = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1598c29a621.jpg',
 'https://i.pinimg.com/originals/85/4d/bb/854dbbd30304cd69f305352f0183fad0.jpg',
 'https://i.pinimg.com/originals/32/2c/a4/322ca456fa2cdec4b717895a65adfa8d.jpg',
 'https://i.pinimg.com/originals/f2/dd/cc/f2ddccd5a1b89d2302cf75c6520c58dd.png',
@@ -318,14 +359,22 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/fd/21/41/fd21419275236bb153de3c8dcbbf3bf9.jpg',
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
-/*============== FlamingText ===========*/
-global.flaaa = [
-'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=', 
-'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
-'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
-'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
-'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
-'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='] 
+/*============== HENTAI ==============*/ 
+//OPTIONS
+global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
+global.premnsfw = true // Nsfw Mode Premium?
+
+
+//Ini cuma simpenan owner kok :v
+global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://telegra.ph/file/05c1b22ee83bcd7723b4d.jpg','https://telegra.ph/file/1d886f66a44871205335f.jpg','https://telegra.ph/file/54d19a9094dc509370bf9.jpg','https://telegra.ph/file/e649475bcde78a9977ee5.jpg','https://telegra.ph/file/32ba20b6139b129c559c8.jpg','https://telegra.ph/file/948434cda49e4af5d9f11.jpg','https://telegra.ph/file/6f353c68533283fe79871.jpg','https://telegra.ph/file/de268ca9b01101acf2b8a.jpg','https://telegra.ph/file/fc6c5b2ae9a20c4256e7f.jpg', 'https://telegra.ph/file/efb70bb0988640f841742.jpg', 'https://telegra.ph/file/77d03fff530a2bcff3bf7.jpg','https://telegra.ph/file/6e4623464a659dd8d902b.jpg','https://telegra.ph/file/685aa39f0cb0f2c4fd85b.jpg','https://telegra.ph/file/10454b9ad693e1eefea58.jpg','https://telegra.ph/file/7de8ce5c290c3d8be0856.jpg','https://telegra.ph/file/8d7c4eadb7a4722747074.jpg','https://telegra.ph/file/ccc5f8eaac0f30919ef6c.jpg','https://telegra.ph/file/95f4b43439d7888f15ea5.jpg','https://telegra.ph/file/9c2a750db555bd2fad1f3.jpg', 'https://telegra.ph/file/efc5f7e637744fd6bfec2.jpg','https://telegra.ph/file/3a5231aade245665633bd.jpg','https://telegra.ph/file/2ecfc76feb26ec1eab99b.jpg','https://telegra.ph/file/dabb70983b4e833d98344.jpg','https://telegra.ph/file/75193a893e38fc580afe6.jpg','https://telegra.ph/file/217aa0f4ec76273808aa4.jpg','https://telegra.ph/file/8a35d3446b97ae22c7b23.jpg','https://telegra.ph/file/092df720701575a7ceaaa.jpg','https://telegra.ph/file/a65184a676cd648de34c3.jpg',
+'https://telegra.ph/file/180e28807e78419d45537.jpg','https://telegra.ph/file/140eff27be983e0cd6781.jpg','https://telegra.ph/file/1581b791e16d0029e16b5.jpg','https://telegra.ph/file/6a4b36372b4f265bae3bc.jpg','https://telegra.ph/file/093caff422f194f00bc6c.jpg','https://telegra.ph/file/2294b7ab49eca8a8046b2.jpg','https://telegra.ph/file/869224d1c417e8b5c8ff1.jpg','https://telegra.ph/file/a78443f0ee887f46808d7.jpg','https://telegra.ph/file/1889878933264d16c58bf.jpg','https://telegra.ph/file/735aeb47d9c4aa87aaaf3.jpg','https://telegra.ph/file/fcf861516db09dda164e0.jpg','https://telegra.ph/file/355d96d7e06d109435f67.jpg']
+global.hwaifu = ['https://telegra.ph/file/a3bd959e8cf3131be2213.jpg']
+global.hyuri = ['https://telegra.ph/file/5d908f4a17515a15c6202.jpg']
+global.hLokun = ['https://telegra.ph/file/8902f4fc550727a62e99f.jpg','https://telegra.ph/file/6a6a40e924c16a8f0de03.jpg', 'https://telegra.ph/file/b035d3038a0b124f1d846.jpg', 'https://telegra.ph/file/9d475f7852bf6f6193c80.jpg']
+global.hloli = ['https://telegra.ph/file/872c360a7104d86752650.jpg', 'https://telegra.ph/file/f6bbb53620374257bfa51.jpg','https://telegra.ph/file/9b76375f3869440818d57.jpg','https://telegra.ph/file/a78443f0ee887f46808d7.jpg']
+global.hneko = ['https://telegra.ph/file/805a37b1e9a963e7d7ecf.jpg', 'https://telegra.ph/file/f9c4d97477b647cf57a2b.jpg','https://telegra.ph/file/b6905b77e6c7732592a13.jpg', 'https://telegra.ph/file/9f82c432d0ba4cfffda9a.png', 'https://telegra.ph/file/484083949d4bfd763b8cf.jpg']
+global.hbunny = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg', 'https://telegra.ph/file/ae610571b62b5ab876e9c.jpg', 'https://telegra.ph/file/cc8255d5b989eef587af2.jpg','https://telegra.ph/file/30d2e7375996abd9cfee3.jpg', 'https://telegra.ph/file/78980c90c44a95a1d30fa.jpg', 'https://telegra.ph/file/2ac5d8ccf23e73eaa5bfa.jpg']
+global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://telegra.ph/file/b6905b77e6c7732592a13.jpg','https://telegra.ph/file/9da45a352eb4c40e5d641.jpg', 'https://telegra.ph/file/59e78846ee365975ee6e3.jpg','https://telegra.ph/file/1bf7dee46b83eb4c41d7d.jpg','https://telegra.ph/file/0525a7929f819cb8278f3.jpg']
 
 /*============== TEXT ==============*/
 global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
@@ -337,7 +386,6 @@ global.ddocx = 'application/vnd.openxmlformats-officedocument.wordprocessingml.d
 global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
-global.djson = 'application/json'
 
 global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 
@@ -353,13 +401,13 @@ global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
 
 // COMMAND MENU
-global.dashmenu = '┅━━━═┅═❏ *ღ 𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿 ღ* ❏═┅═━━━┅'
-global.cmenut = '╭─❑ 『'                       //top
-global.cmenuh = '』❑─ '                        //header
-global.cmenub = '┃❑ '                            //body
-global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
+global.dashmenu = '┅═┅═❏ *DASHBOARD* ❏═┅═┅'
+global.cmenut = '❏––––––『' //top
+global.cmenuh = '』––––––' //header
+global.cmenub = '┊✦ ' //body
+global.cmenuf = '┗━═┅═━––––––๑\n' //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
-global.pmenus = '┊'                              //pembatas menu selector
+global.pmenus = '✦' //pembatas menu selector
 
 global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
@@ -369,10 +417,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'Sticker Bye'
-global.stickauth = 'MGBOTZ'
-global.packname = ''
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ MGBOTZ'
+global.stickpack = '𝙉𝘼𝙄-𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 🇮🇩'
+global.stickauth = `By Nizar, Adryan, Irham`
 
 global.multiplier = 38 // The higher, The harder levelup
 
@@ -381,38 +427,66 @@ global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
     let emot = {
-      level: '📊',
-      limit: '🎫',
-      health: '❤️',
-      exp: '✨',
-      money: '💹',
-      bank: '🏦',
-      potion: '🥤',
-      diamond: '💎',
-      common: '📦',
-      uncommon: '🛍️',
-      mythic: '🎁',
-      legendary: '🗃️',
-      superior: '💼',
-      pet: '🔖',
-      trash: '🗑',
+      agility: '🤸‍♂️',
+      arc: '🏹',
       armor: '🥼',
-      sword: '⚔️',
-      pickaxe: '⛏️',
+      bank: '🏦',
+      bibitanggur: '🍇',
+      bibitapel: '🍎',
+      bibitjeruk: '🍊',
+      bibitmangga: '🥭',
+      bibitpisang: '🍌',
+      bow: '🏹',
+      bull: '🐃',
+      cat: '🐈',
+      chicken: '🐓',
+      common: '📦',
+      cow: '🐄',
+      crystal: '🔮',
+      darkcrystal: '♠️',
+      diamond: '💎',
+      dog: '🐕',
+      dragon: '🐉',
+      elephant: '🐘',
+      emerald: '💚',
+      exp: '✉️',
       fishingrod: '🎣',
-      wood: '🪵',
-      rock: '🪨',
-      string: '🕸️',
-      horse: '🐴',
-      cat: '🐱',
-      dog: '🐶',
       fox: '🦊',
-      petFood: '🍖',
+      gems: '🍀',
+      giraffe: '🦒',
+      gold: '👑',
+      health: '❤️',
+      horse: '🐎',
+      intelligence: '🧠',
       iron: '⛓️',
-      gold: '🪙',
-      emerald: '❇️',
-      upgrader: '🧰'
-      
+      keygold: '🔑',
+      keyiron: '🗝️',
+      knife: '🔪',
+      legendary: '🗃️',
+      level: '🧬',
+      limit: '🌌',
+      lion: '🦁',
+      magicwand: '⚕️',
+      mana: '🪄',
+      money: '💵',
+      mythic: '🗳️',
+      pet: '🎁',
+      petFood: '🍖',
+      pickaxe: '⛏️',
+      pointxp: '📧',
+      potion: '🥤',
+      rock: '🪨',
+      snake: '🐍',
+      stamina: '⚡',
+      strength: '🦹‍♀️',
+      string: '🕸️',
+      superior: '💼',
+      sword: '⚔️',
+      tiger: '🐅',
+      trash: '🗑',
+      uncommon: '🎁',
+      upgrader: '🧰',
+      wood: '🪵'
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
     if (!results.length) return ''
@@ -427,8 +501,3 @@ watchFile(file, () => {
   console.log(chalk.redBright("Update 'config.js'"))
   import(`${file}?update=${Date.now()}`)
 })
-
-//------ FUNCTION
-function pickRandom(list) {
-  return list[Math.floor(list.length * Math.random())]
-}
