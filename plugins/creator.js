@@ -20,17 +20,17 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = 'https://telegra.ph/file/f38f1ce61e1e674e20e94.jpg'
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : Oscar Offc
-${htjava} *✉️ Nama YouTube* : Rismabotz offc
+${htjava} *💌 Nama* : Nizar Rahman.f
+${htjava} *✉️ Nama Instagram* : nizarrrahman.f_
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : 30 Januari 2004
+${htjava} *⏰ Tanggal lahir* : 02 November 2005
 ${htjava} *🎨 Umur* : 17
 ${htjava} *🧮 Kelas* : Lulus 
-${htjava} *🧩 Hobby* : Nonton Donghua, Chatting, Musik, Recode script bot
+${htjava} *🧩 Hobby* : Basket Renang Dan Olahraga Lain NyA
 ${htjava} *💬 Sifat* : Baik, No seleb, Y, Y
-${htjava} *🗺️ Tinggal* : Indo, Tulungagung, Jawa Timur
-${htjava} *❤️ Suka* : Kamu
+${htjava} *🗺️ Tinggal* : Indo, Cianjur, Jawa barat
+${htjava} *❤️ Suka* : Dia
 ${htjava} *💔 Benci* : autis, seleb
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
